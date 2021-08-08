@@ -6,7 +6,7 @@ import pandas as pd
 from lxml import html, etree
 import os
 from diff_content_extraction.attribute_extraction import extract_attribs
-from diff_content_extractionextraction.xpath_utils import  find_ancestor_node
+from diff_content_extraction.xpath_utils import find_ancestor_node
 
 
 def flat_xpaths_attrs(lst):
