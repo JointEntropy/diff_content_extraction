@@ -4,11 +4,9 @@ from itertools import chain, product, combinations
 from collections import Counter, defaultdict
 import pandas as pd
 from lxml import html, etree
-import json
-from loguru import logger
 import os
-from src.extraction.attribute_extraction import extract_attribs
-from src.extraction.xpath_utils import  find_ancestor_node
+from diff_content_extraction.attribute_extraction import extract_attribs
+from diff_content_extractionextraction.xpath_utils import  find_ancestor_node
 
 
 def flat_xpaths_attrs(lst):
