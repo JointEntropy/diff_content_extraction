@@ -1,6 +1,6 @@
 pymongo==3.11.4
-loguru==0.5.3
-pandas==1.2.5
+loguru
+pandas
 attrdict==2.0.1
 uuid==1.30
 numpy
